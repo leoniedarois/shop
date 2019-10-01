@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 import AppRouter from './router/AppRouter'
-import Form from './components/Form'
-function App() {
+
+function  App () {
   return (
     <div className="App">
-      <AppRouter/>
+        <AppRouter/>
     </div>
   );
+  
 }
 
 export default App;
