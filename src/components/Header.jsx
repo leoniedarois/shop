@@ -19,10 +19,10 @@ const Header = props => {
   console.log(props)
   return (
     <HeaderStyled>
-      <LinkStyled to='./'>Home</LinkStyled>
-      <LinkStyled to='./mens'>Mens</LinkStyled>
-      <LinkStyled to='./womens'>Womens</LinkStyled>
-      <LinkStyled to='./signup'>Sign Up</LinkStyled>
+      <LinkStyled to='/'>Home</LinkStyled>
+      <LinkStyled to='/mens/jackets'>Mens</LinkStyled>
+      <LinkStyled to='/womens'>Womens</LinkStyled>
+      <LinkStyled to='/signup'>Sign Up</LinkStyled>
     </HeaderStyled>
   )
 }
